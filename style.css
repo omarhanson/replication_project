@@ -1,6 +1,4 @@
 
-   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');   
-   @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lato:wght@300&display=swap');  
     @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700&family=Lato:wght@300&display=swap');   
 
 /* nav_Section */
@@ -76,7 +74,7 @@ a{text-decoration: none;
 /* body_Section */
 body{margin: 0;
 margin-top: 1%; 
- min-width:1000px;     
+  min-width:1000px;      
  height: auto; } 
 
 *{box-sizing: border-box;}   
@@ -261,13 +259,13 @@ color: #e45826;}
 .copy p{font-weight: bold;
 font-size: 14px;}
 
-@media screen and  (min-width:320px) and (max-width:1200px)
+@media screen and  (min-width:320px) 
+and (max-width:1200px)
 {
 
   .column2 {flex-basis: 31%;
     margin: 1%;
     text-align: center;
-   /* padding-top: 1%;  */
    background-color: #f8f5f1;
    height: 550px;
    margin-bottom: 5%;
@@ -291,9 +289,4 @@ font-size: 14px;}
   color: #f8f5f1;} 
 
   .link3{margin-top: 14%;}
-} 
-
-@media screen and (min-width:1441px) and (max-width:2560px)
-{
-
 } 
